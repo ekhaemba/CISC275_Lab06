@@ -41,7 +41,7 @@ Run the following commands.
 2.  What does `-ag` cause `git help` to do?
 
     ```
-    It also list all the available git commands alond with the commom Git guides.
+    It also list all the available git commands along with the common Git guides.
 
 
     ```
