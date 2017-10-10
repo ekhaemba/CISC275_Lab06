@@ -16,8 +16,8 @@ This file is the deliverable for this lab, so make sure you do not forget to pus
 1.  List your team members below.
 
     ```
-
-
+    Elton Mwale
+    Yat Chan
 
     ```
 
@@ -69,15 +69,15 @@ Run `git status` before and after each of these commands.
 
     ```
 
-
+    It reports information about the state of your working tree.
 
     ```
 
 2.  What does `git add names.txt` do?
 
     ```
-
-
+    Tracks names.txt to the working tree.
+    Such that its ready to be staged for commit.
 
     ```
 
@@ -85,7 +85,7 @@ Run `git status` before and after each of these commands.
 
     ```
 
-
+    Stages all of the tracked (added) files for commit and adds the message "Add our names to the commit".
 
     ```
 
@@ -106,7 +106,7 @@ Run `git status` before and after each of these commands.
 
     ```
 
-
+    Recursively adds all of the untracked file changes in the current directory.
 
     ```
 
@@ -114,7 +114,7 @@ Run `git status` before and after each of these commands.
 
     ```
 
-
+    Stages all of the tracked files for a commit. Will open vi so that you can add a commit message.
 
     ```
 
@@ -123,7 +123,7 @@ Run `git status` before and after each of these commands.
 
     ```
 
-
+    git commit
 
     ```
 
@@ -131,7 +131,7 @@ Run `git status` before and after each of these commands.
 
     ```
 
-
+    Shows all of the commits to your working copy of the repository.
 
     ```
 
@@ -162,15 +162,15 @@ Run the following commands:
 
     ```
 
-
+    names.txt
 
     ```
 
     **Unstaged**
 
     ```
-
-
+     
+    movies.txt
 
     ```
 
@@ -178,14 +178,14 @@ Run the following commands:
 
     ```
 
-
+    foods.txt
 
     ```
 
 1.  If you run `git commit` what changes will be committed (***DON’T DO IT***)?
 
     ```
-
+    names.txt
 
 
     ```
@@ -194,7 +194,7 @@ Run the following commands:
 
     ```
 
-
+    git add
 
     ```
 
@@ -202,7 +202,7 @@ Run the following commands:
 
     ```
 
-
+    git reset
 
     ```
 
@@ -215,7 +215,7 @@ Run the following commands:
 
     ```
 
-
+    Shows you the differences of the unstaged changes
 
     ```
 
@@ -223,7 +223,7 @@ Run the following commands:
 
     ```
 
-
+    Shows you the differences of the staged changes
 
     ```
 
@@ -233,7 +233,8 @@ Run the following commands:
 
     ```
 
-
+    git reset HEAD names.txt
+    git add movies.txt
 
     ```
 
@@ -243,7 +244,7 @@ Run the following commands:
 
     ```
 
-
+    Editing a staged file unstages it
 
     ```
 
@@ -252,7 +253,7 @@ Run the following commands:
 
     ```
 
-
+    Git can see that a tracked file is no longer in the directory so it asks you to untrack it
 
     ```
 
@@ -261,7 +262,7 @@ Run the following commands:
 
     ```
 
-
+    In order to rename a file you must untrack it from the working tree and then stage the new named file
 
     ```
 
@@ -271,7 +272,8 @@ Run the following commands:
 
     ```
 
-
+    git add .
+    git commit -m "Adding everything"
 
     ```
 
@@ -280,7 +282,7 @@ Run the following commands:
 
     ```
 
-
+    All of the changes you want to add to the repository
 
     ```
 
@@ -289,7 +291,8 @@ Run the following commands:
 
     ```
 
-
+    To selectively add some things and not others. Like if you just wanted to change the documentation of the repository but still had a new feature you were working on.
+    You wouldn't have to add that incomplete feature in order to stage your documentation.
 
     ```
 
@@ -325,29 +328,29 @@ Run the following commands:
 
     ```
 
-
+    Removes your commits and brings all of the files in the commit to the stage state
 
     ```
 
 2.  What is the difference between `--hard` and `--soft`?
 
     ```
-
-
+    
+    --soft will put all of your committed files to the stage state and --hard will remove all changes and point your head to last commit.
 
     ```
 
 3.  What do you think `HEAD` means?
 
     ```
-
+    HEAD is a reference to the last commit in the currently checked-out branch.
 
     ```
 
 4.  What do you think `HEAD^` means?
 
     ```
-
+    The last last commit.
 
     ```
 
