@@ -34,14 +34,14 @@ Run the following commands.
 1.  What does `git help` do?
 
     ```
-	
+    'git help' will list all the commend you could do with git.
 
     ```
 
 2.  What does `-ag` cause `git help` to do?
 
     ```
-
+    It also list all the available git commands alond with the commom Git guides.
 
 
     ```
@@ -302,12 +302,11 @@ Run the following commands:
     git status
     git reset --soft "HEAD^"
     git log
-    git status
-
+    
 1.  What does `git reset --soft ``"HEAD^" `do?
 
     ```
-
+    
 
 
     ```
@@ -324,7 +323,7 @@ Run the following commands:
 1.  What does `git reset --hard ``"HEAD^"`` `do?
 
     ```
-
+    
 
 
     ```
